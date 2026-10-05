@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TCG Database</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homePage.css">
+</head> 
+<body>
+    <div id="container">
+        <header id="header">
+            <a class="brand" href="homePage.html">TCG Database</a>
+            <nav id="sub-header" aria-label="Main">
+                <a href="inventory.html" id="inventory">Inventory</a>
+                <a href="import.html" id="import">Import</a>
+                <a href="list-builder.html" id="list-builder">List Builder</a>
+            </nav>
+        </header>
+
+        <main id="content">
+            <h1>Find a card</h1>
+            <p class="lead">Search your collection by card name, set, or number.</p>
+
+            <search>
+                <form action="/search" method="get" class="search-form">
+                    <fieldset class="game-picker">
+                        <legend class="visually-hidden">Game</legend>
+                        <label>
+                            <input type="radio" name="game" value="all" checked>
+                            <span>All games</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="game" value="pokemon">
+                            <span>Pokémon</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="game" value="mtg">
+                            <span>Magic</span>
+                        </label>
+                    </fieldset>
+
+                    <div class="search-row">
+                        <label for="site-search" class="visually-hidden">Card name, set, or number</label>
+                        <input
+                            type="search"
+                            id="site-search"
+                            name="q"
+                            placeholder="Try &quot;Charizard&quot; or &quot;Lightning Bolt&quot;"
+                            autocomplete="off"
+                            required
+                        >
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+            </search>
+
+            <p class="hint">Not seeing a card? Add it from <a href="import.html">Import</a>.</p>
+        </main>
+
+        <footer id="footer">
+            <p>&copy; 2026 TCG Database. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
