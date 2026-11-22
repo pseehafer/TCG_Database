@@ -13,3 +13,6 @@ There will be an API to fetch images of cards, as well as printing variations ba
 
 ### Locally Ran
 The best thing about it is that it is completely free to run, because it doesn't require any hosting. We can edit and save the local database of what we have directly to the computer that it is being ran on. Keeping all total inventory data safe and secure, as well as keeping initialization times low.
+
+### Implementation
+Implemented at local game store called: D20 Gaming LLC. They're using the program to store and sell their massive collection of TCG cards that they have in house.
