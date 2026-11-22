@@ -1,0 +1,118 @@
+TCG Database - packaged version (no XAMPP needed)
+====================================================
+
+This folder is the whole program: the pages, the web server, PHP and the
+database. Nothing else has to be installed.
+
+
+START IT
+--------
+1. Put this whole folder somewhere permanent, for example C:\TCGDB-App.
+   Not inside Program Files, and not inside OneDrive or another synced folder.
+2. Double-click "TCG Database.exe".
+3. The first start asks two questions and then takes about a minute:
+     - Will other devices (a kiosk tablet, a second computer) use it?
+       If you answer Yes, Windows asks "Do you want to allow this app to make
+       changes to your device?". Choose Yes: it adds one firewall rule.
+     - Start automatically when this computer starts?
+4. Your browser opens. Create the staff password on the sign-in page, then
+   go to Card Catalog and download the card pictures for both games.
+
+If Windows shows "Windows protected your PC" the first time, click
+"More info" and then "Run anyway". It appears because the program is new
+and not yet signed.
+
+
+WHILE IT RUNS
+-------------
+TCG Database sits in the notification area by the clock (click the ^ arrow
+if you don't see its icon).
+
+  Click the icon         opens TCG Database in the browser
+  Right-click the icon   menu:
+      Open TCG Database / Open Customer Lookup
+      Addresses for other devices     what to type on the kiosk
+      Let other devices connect       on/off
+      Start when Windows starts       on/off
+      Open the data folder            backups and logs
+      Stop TCG Database
+
+The address on this computer is http://localhost:8080
+(if 8080 was taken on the first start, the next free number is used and
+saved in settings.ini).
+
+
+THE KIOSK
+---------
+On this computer: double-click "Customer Lookup (kiosk).bat".
+On another device: open the address shown under
+"Addresses for other devices", for example http://storepc:8080/kiosk.php.
+Both devices must be on the same network.
+
+
+YOUR DATA
+---------
+Everything that belongs to the store is in the "data" folder:
+
+  data\db        the database (cards, lists, the staff password)
+  data\backups   backups made by the Backups page and the daily automatic one
+  data\logs      log files, useful if something goes wrong
+
+A backup is made automatically once a day while TCG Database is running.
+Every so often, copy the newest file in data\backups to a USB drive.
+
+To move to another computer: stop TCG Database, copy this whole folder to
+the new computer, and start it there.
+
+
+MOVING FROM THE XAMPP VERSION
+-----------------------------
+1. In the old version: Backups > Back up now, then download that backup.
+2. In this version: create the staff password, then Backups > restore the
+   file you downloaded. Cards, lists, pull history and the password come
+   across.
+3. Card Catalog > download the pictures for both games again (pictures and
+   prices are not part of a backup).
+Both versions can run at the same time while you try this one out.
+
+
+UPDATES
+-------
+An update is a few files that replace the ones in the "app" folder.
+Stop TCG Database, copy the new files into "app", start it again.
+Your data is not touched.
+
+
+REMOVE IT
+---------
+1. Right-click the icon > untick "Start when Windows starts".
+2. Right-click the icon > Stop TCG Database.
+3. Delete this folder (this deletes your data too: copy data\backups first).
+4. Optional: in Windows Defender Firewall > Advanced settings > Inbound
+   Rules, delete the rule named TCGDatabase.
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+The message on screen says what failed. The details are in data\logs:
+  launcher.log     starting and stopping
+  database.log     the database
+  web_error.log    the web server
+  php_error.log    the pages
+
+"Another program is already using port 8080": open settings.ini with
+Notepad, change web_port to another number (for example 8081), save, and
+start TCG Database again.
+
+
+WHAT'S INSIDE
+-------------
+  TCG Database.exe      starts and stops everything
+  app\                  the TCG Database pages
+  runtime\              Apache web server, PHP and MariaDB (see licenses\)
+  data\                 created on the first start
+  settings.ini          created on the first start
+
+TCG Database (c) 2026 Parker Seehafer. All rights reserved. See
+app\LICENSE.md. Apache, PHP and MariaDB are separate programs included
+unchanged under their own licenses, which are in the licenses folder.
