@@ -1,0 +1,15 @@
+[Tue Nov 10 10:34:42.563558 2026] [mpm_winnt:notice] [pid 16540:tid 388] AH00455: Apache/2.4.58 (Win64) configured -- resuming normal operations
+[Tue Nov 10 10:34:42.563558 2026] [mpm_winnt:notice] [pid 16540:tid 388] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Tue Nov 10 10:34:42.563558 2026] [core:notice] [pid 16540:tid 388] AH00094: Command line: 'C:\\xampp\\htdocs\\TCGDB-App1\\TCGDB-App\\runtime\\apache\\bin\\httpd.exe -d C:/xampp/htdocs/TCGDB-App1/TCGDB-App/runtime/apache -f C:\\xampp\\htdocs\\TCGDB-App1\\TCGDB-App\\data\\config\\httpd.conf'
+[Tue Nov 10 10:34:42.578849 2026] [mpm_winnt:notice] [pid 16540:tid 388] AH00418: Parent: Created child process 17588
+[Tue Nov 10 10:34:43.332011 2026] [mpm_winnt:notice] [pid 17588:tid 408] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 11 13:02:29.242809 2026] [mpm_winnt:notice] [pid 23276:tid 340] AH00455: Apache/2.4.58 (Win64) configured -- resuming normal operations
+[Wed Nov 11 13:02:29.246933 2026] [mpm_winnt:notice] [pid 23276:tid 340] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Nov 11 13:02:29.246933 2026] [core:notice] [pid 23276:tid 340] AH00094: Command line: 'C:\\xampp\\htdocs\\TCGDB-App1\\TCGDB-App\\runtime\\apache\\bin\\httpd.exe -d C:/xampp/htdocs/TCGDB-App1/TCGDB-App/runtime/apache -f C:\\xampp\\htdocs\\TCGDB-App1\\TCGDB-App\\data\\config\\httpd.conf'
+[Wed Nov 11 13:02:29.263039 2026] [mpm_winnt:notice] [pid 23276:tid 340] AH00418: Parent: Created child process 20196
+[Wed Nov 11 13:02:30.346269 2026] [mpm_winnt:notice] [pid 20196:tid 348] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 11 13:39:04.461401 2026] [mpm_winnt:notice] [pid 22004:tid 376] AH00455: Apache/2.4.58 (Win64) configured -- resuming normal operations
+[Wed Nov 11 13:39:04.463684 2026] [mpm_winnt:notice] [pid 22004:tid 376] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Wed Nov 11 13:39:04.463684 2026] [core:notice] [pid 22004:tid 376] AH00094: Command line: 'C:\\xampp\\htdocs\\TCGDB-App1\\TCGDB-App\\runtime\\apache\\bin\\httpd.exe -d C:/xampp/htdocs/TCGDB-App1/TCGDB-App/runtime/apache -f C:\\xampp\\htdocs\\TCGDB-App1\\TCGDB-App\\data\\config\\httpd.conf'
+[Wed Nov 11 13:39:04.463684 2026] [mpm_winnt:notice] [pid 22004:tid 376] AH00418: Parent: Created child process 22112
+[Wed Nov 11 13:39:04.965971 2026] [mpm_winnt:notice] [pid 22112:tid 348] AH00354: Child: Starting 150 worker threads.

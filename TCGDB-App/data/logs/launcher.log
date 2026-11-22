@@ -1,0 +1,59 @@
+2026-11-10 10:34:27  ---- launcher 1.0 starting (args []) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-10 10:34:27  first run: true; settings {WebPort:8080 DBPort:3311 LANAccess:ask}
+2026-11-10 10:34:28  database port 3311 is taken, using 3312
+2026-11-10 10:34:31  firewall rule for port 8080 present: true
+2026-11-10 10:34:36  creating the database files
+2026-11-10 10:34:39  mysql_install_db: Running bootstrap | Removing default user | Creating my.ini file | Creation of the database was successful
+2026-11-10 10:34:39  database started (pid 9488)
+2026-11-10 10:34:40  creating the tcg_database tables
+2026-11-10 10:34:41  web server started (pid 16540)
+2026-11-10 10:34:43  sign-in page answered with status 200
+2026-11-10 10:34:46  desktop shortcut created
+2026-11-10 10:37:46  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 13:37:26  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 14:37:27  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 15:37:27  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 15:49:06  ---- launcher 1.0 starting (args []) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-10 16:37:27  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 16:40:06  ---- launcher 1.0 starting (args []) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-10 17:37:28  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 19:03:20  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-10 20:03:21  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-11 05:46:26  web server stopped unexpectedly: exit status 0x40010004
+2026-11-11 05:46:26  database stopped unexpectedly: exit status 0x40010004
+2026-11-11 05:46:26  stopping
+2026-11-11 05:46:26  stopped
+2026-11-11 13:02:23  ---- launcher 1.0 starting (args ["--quiet"]) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-11 13:02:23  first run: false; settings {WebPort:8080 DBPort:3312 LANAccess:yes}
+2026-11-11 13:02:24  database started (pid 19832)
+2026-11-11 13:02:27  web server started (pid 23276)
+2026-11-11 13:02:30  sign-in page answered with status 200
+2026-11-11 13:05:32  automatic backup: Backed up to tcgdb-2026-11-11_130531-auto.sql.gz (11 KB, 0.5 s)
+2026-11-11 13:37:16  web server stopped unexpectedly: exit status 0x40010004
+2026-11-11 13:37:16  stopping
+2026-11-11 13:37:16  mysqladmin shutdown: exit status 0xc0000142 
+2026-11-11 13:37:16  stopped
+2026-11-11 13:39:02  ---- launcher 1.0 starting (args ["--quiet"]) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-11 13:39:02  first run: false; settings {WebPort:8080 DBPort:3312 LANAccess:yes}
+2026-11-11 13:39:02  database started (pid 11472)
+2026-11-11 13:39:03  web server started (pid 22004)
+2026-11-11 13:39:05  sign-in page answered with status 200
+2026-11-11 13:42:06  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-15 13:24:23  ---- launcher 1.0 starting (args []) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-15 18:08:24  ---- launcher 1.0 starting (args []) in C:\xampp\htdocs\TCGDB-App1\TCGDB-App
+2026-11-15 18:28:02  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-15 22:56:50  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-15 23:56:51  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-16 08:23:23  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-16 09:23:24  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-16 13:30:18  automatic backup: Backed up to tcgdb-2026-11-16_133018-auto.sql.gz (13 KB, 0.3 s)
+2026-11-17 08:35:59  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-17 12:34:39  automatic backup: Backed up to tcgdb-2026-11-17_123439-auto.sql.gz (13 KB, 0.3 s)
+2026-11-18 13:22:56  automatic backup: Backed up to tcgdb-2026-11-18_132255-auto.sql.gz (13 KB, 0.2 s)
+2026-11-18 23:59:38  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-19 23:15:04  automatic backup: Backed up to tcgdb-2026-11-19_231504-auto.sql.gz (13 KB, 0.2 s)
+2026-11-20 12:07:14  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-20 13:20:50  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-21 23:49:47  automatic backup: Backed up to tcgdb-2026-11-21_234947-auto.sql.gz (13 KB, 0.3 s)
+2026-11-22 00:49:49  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
+2026-11-22 01:49:59  automatic backup: Not due yet: the last automatic backup is less than 20 hours old.
